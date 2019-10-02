@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include<ctime>
 
 #define size 1000000
@@ -41,10 +41,10 @@ void mediaryFunction(int val){
 int main(){
   cout<<"\nBinary search : Compiled and executed by Harsh Yadav.\n 44614803117\n";
   cout<<"Best Case :\n";
-  mediaryFunction(499999);
+  mediaryFunction(500000);
   cout<<"Average Case :\n";
   mediaryFunction(975);
   cout<<"Worst Case :\n";
-  mediaryFunction(999999);
+  mediaryFunction(100000);
   return 0;
 }
